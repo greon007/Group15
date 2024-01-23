@@ -5,4 +5,11 @@
 //  Created by Gagan Singh Grewal on 2024-01-22.
 //
 
-import Foundation
+class OwnedItem : Item {
+    var minutesUsed: Int
+    
+    init(minutesUsed: Int) {
+        self.minutesUsed = minutesUsed
+        super.init(id: <#T##Int#>, title: <#T##String#>, price: <#T##Double#>)
+    }
+}
