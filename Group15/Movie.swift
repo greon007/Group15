@@ -5,4 +5,15 @@
 //  Created by Gagan Singh Grewal on 2024-01-22.
 //
 
-import Foundation
+class Movie : Item {
+    var runningTime: Int
+    
+    override var info: String {
+        return "\(title), \(price)\nRunning Time: \(runningTime)"
+    }
+    
+    init(id: Int, title: String, price: Double, runningTime: Int) {
+        self.runningTime = runningTime
+        super.init(id: <#T##Int#>, title: <#T##String#>, price: <#T##Double#>)
+    }
+}
