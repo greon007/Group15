@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4A698CD9-11FC-4494-8FA1-E5A9C806DF07"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F86A37C5-0E54-4B33-B50A-76509C004239"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Group15/OwnedItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "init(id:title:price:minutesUsed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F86A37C5-0E54-4B33-B50A-76509C004239 - 21c21a5c3b715ecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Group15.OwnedItem.__allocating_init(id: Swift.Int, title: Swift.String, price: Swift.Double, minutesUsed: Swift.Int) -&gt; Group15.OwnedItem"
+                  moduleName = "Group15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliusdejon/Desktop/GBC%20FILES/Group15/Group15/OwnedItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F86A37C5-0E54-4B33-B50A-76509C004239 - eac530f788b52a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Group15.OwnedItem.init(id: Swift.Int, title: Swift.String, price: Swift.Double, minutesUsed: Swift.Int) -&gt; Group15.OwnedItem"
+                  moduleName = "Group15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juliusdejon/Desktop/GBC%20FILES/Group15/Group15/OwnedItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

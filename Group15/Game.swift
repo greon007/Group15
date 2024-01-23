@@ -8,6 +8,7 @@
 class Game : Item {
     var publisher: String
     var isMultiplayer: Bool
+    
 
     //--from Item class--
     override var info: String {
@@ -15,9 +16,9 @@ class Game : Item {
     }
     //--from Item class--
     
-    init(publisher: String, isMultiplayer: Bool) {
+    init(id: Int, title: String, price: Double, publisher: String, isMultiplayer: Bool) {
         self.publisher = publisher
         self.isMultiplayer = isMultiplayer
-        super.init(id: <#T##Int#>, title: <#T##String#>, price: <#T##Double#>)
+        super.init(id: id, title: title, price: price)
     }
 }

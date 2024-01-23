@@ -8,8 +8,8 @@
 class OwnedItem : Item {
     var minutesUsed: Int
     
-    init(minutesUsed: Int) {
+    init(id:Int, title: String, price:Double, minutesUsed: Int) {
         self.minutesUsed = minutesUsed
-        super.init(id: <#T##Int#>, title: <#T##String#>, price: <#T##Double#>)
+        super.init(id: id, title: title, price: price)
     }
 }
