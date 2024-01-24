@@ -20,7 +20,8 @@ let movieItem3 = Movie(id: 225, title: "John Wick: Chapter 4", price: 25.50, run
 
 
 // Customer tests
-let ownedItem1 = OwnedItem(id: 001, title: "Spiderman", price: 50.0, minutesUsed: 0)
+//let ownedItem1 = OwnedItem(id: 001, title: "Spiderman", price: 50.0, minutesUsed: 0)
+let ownedItem1 = OwnedItem(ownedItem: gameItem1, minutesUsed: 0)
 let customer1 = Customer(itemsList: [ownedItem1])
 customer1.reloadAccount(amount: 20.0)
 print(customer1.balance)
