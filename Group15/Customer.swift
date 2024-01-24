@@ -19,6 +19,13 @@ class Customer : CustomerProtocol {
     var itemsList: [OwnedItem] = []
     var balance: Double = 10.0
     
+    init(itemsList: [OwnedItem]) {
+        self.itemsList = itemsList
+    }
+    init(itemsList: [OwnedItem], balance: Double) {
+        self.itemsList = itemsList
+        self.balance = balance
+    }
     
     func reloadAccount(amount: Double) {
         balance += amount
