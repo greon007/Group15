@@ -14,6 +14,6 @@ class Movie : Item {
     
     init(id: Int, title: String, price: Double, runningTime: Int) {
         self.runningTime = runningTime
-        super.init(id: <#T##Int#>, title: <#T##String#>, price: <#T##Double#>)
+        super.init(id: id, title: title, price: price)
     }
 }

@@ -19,3 +19,12 @@ let movieItem2 = Movie(id: 224, title: "Barbie", price: 45.0, runningTime: 114)
 let movieItem3 = Movie(id: 225, title: "John Wick: Chapter 4", price: 25.50, runningTime: 169)
 
 
+// Customer tests
+let ownedItem1 = OwnedItem(id: 001, title: "Spiderman", price: 50.0, minutesUsed: 0)
+let customer1 = Customer(itemsList: [ownedItem1])
+customer1.reloadAccount(amount: 20.0)
+print(customer1.balance)
+customer1.useItem(id: 001, numMinutes: 5)
+for item in customer1.itemsList {
+    print(item.minutesUsed)
+}
